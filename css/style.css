@@ -300,7 +300,7 @@ button {
 }
 
 .image_s {
-    width: 80%;
+    width: 75%;
     height: auto;
     /* float: left; */
     padding-top: 0px;
@@ -584,6 +584,15 @@ button {
 
 .long_text{
     width: 100%;
+    float: left;
+    font-size: 1.5rem;
+    color: #363636;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.long_text_p{
+    width: 120%;
     float: left;
     font-size: 1.5rem;
     color: #363636;
@@ -1291,11 +1300,11 @@ ul li {
 
 
   .person .image {
-    flex: 0 0 250px;
+    flex: 0 0 300px;
     margin-right: 20px;
   }
   .person .image img {
-    width: 250px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
   }
